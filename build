@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Building docker container for: go-todo"
+
+docker build -t go-todo .
+
+echo "Finished building docker container for: go-todo"

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Running application: go-todo. Use: 'docker stop go-todo' to stop the application."
+docker stop go-todo
+
+docker run -d -p 9030:9030 --rm --name go-todo go-todo
